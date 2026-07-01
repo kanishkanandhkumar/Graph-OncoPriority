@@ -1,0 +1,16 @@
+name: gene_gnn
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch::pytorch
+  - pyg::pyg
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - networkx
+  - pip
